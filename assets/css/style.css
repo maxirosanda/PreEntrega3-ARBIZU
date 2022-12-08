@@ -1,10 +1,50 @@
 @charset "UTF-8";
+/*compilado con Live Sass Compiler*/
 * {
   margin: 0%;
   padding: 0%;
 }
 
 /* Paleta de colores */
+h1 {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: rgb(6, 6, 100);
+  font-size: 48px;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: rgb(103, 255, 65);
+  font-size: 48px;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+}
+
+h4 {
+  font-family: sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 .navbar {
   font-family: "Shippori Antique B1", sans-serif;
   grid-area: navbar;
@@ -82,45 +122,6 @@
   .fa-bars:hover + ul {
     left: 0;
   }
-}
-
-h1 {
-  color: #fff;
-  font-size: 48px;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  text-shadow: black 0.1em 0.1em 0.2em;
-  font-family: sans-serif;
-}
-
-h2 {
-  color: rgb(6, 6, 100);
-  font-size: 48px;
-  text-align: center;
-  padding: 20px;
-  font-family: sans-serif;
-}
-
-h3 {
-  color: rgb(103, 255, 65);
-  font-size: 48px;
-  text-align: center;
-  padding: 20px;
-  font-family: sans-serif;
-  text-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
-}
-
-h4 {
-  font-family: sans-serif;
-  letter-spacing: 0.01em;
-  line-height: 1.6;
-  font-size: 30px;
-  margin-bottom: 10px;
-  margin-top: 40px;
-  text-align: center;
-  color: #fff;
-  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .cuerpo {
